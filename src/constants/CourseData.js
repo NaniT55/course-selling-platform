@@ -1,0 +1,333 @@
+export const courses = {
+    "cyber-security": {
+      mainCourseTitle: "Cyber Security",
+      subCourses: [
+        {
+          image: "./cyber-security-img/cs1.png",
+          tag:"Certified Network Defender",
+          title: "Certified Network Defender",
+          description: "The Certified Network Defender program is meticulously crafted to provide you with a comprehensive understanding of network security. Through this program, you will gain in-depth knowledge of network defense fundamentals, security threats and vulnerabilities, and advanced",
+          link: "/cyber-security/network-security",
+        },
+        {
+          image: "./cyber-security-img/cs2.png",
+          tag:"SOC Analyst",
+          title: "Secure and manage cybersecurity operations with strategic SOC analyst techniques.",
+          description: "The SOC Analyst program is expertly designed to equip you with essential skills needed for Security Operations Centers. You will explore SOC operations, utilize advanced security tools, and understand the role of a SOC Analyst in combating cybersecurity threats.",
+          link: "/cyber-security/application-security",
+        },
+        {
+          image: "./cyber-security-img/cs3.png",
+          tag:"Cyber Defender",
+          title: "Information Security and Ethical Hacking Course",
+          description: "The Cyber Defender program is meticulously crafted to arm you with robust skills for protecting and securing digital environments. You will learn advanced ethical hacking techniques, network security, malware analysis, and more. Equip yourself to stay ahead of cyber threats and safeguard",
+          link: "/cyber-security/cyber-defender",
+        },
+        {
+          image: "./cyber-security-img/cs4.png",
+          tag:"Cyber Forensics",
+          title: "Cyber Forensics",
+          description: "The Cyber Forensics program is intricately designed to provide you with extensive skills in digital investigation and security. Learn to conduct thorough digital forensic investigations, manage digital evidence, and apply advanced security techniques to protect and analyze digital",
+          link: "/cyber-security/cyber-forensics",
+        },
+        {
+          image: "./cyber-security-img/cs5.png",
+          tag:"Bug Bounty",
+          title: "Bug Bounty",
+          description: "The Bug Bounty program is designed to provide you with comprehensive skills in identifying, analyzing, and exploiting software vulnerabilities. Learn to use advanced tools and techniques to uncover and address security flaws, contributing to software integrity and resilience against attacks.",
+          link: "/cyber-security/bug-bounty",
+        },
+      ],
+    },
+    "data-science": {
+      mainCourseTitle: "Data Science and AI",
+      subCourses: [
+        {
+          image: "./datascience-img/ds1.png",
+          tag:"enterprise",
+          title: "Data Scientist course",
+          description: "The Data Scientist program is designed to provide deep insights and practical skills in data analytics, machine learning, and advanced data management. This comprehensive course will empower you to analyze, interpret, and leverage data effectively across various business contexts.",
+          link: "/data-science/ml-basics",
+        },
+        {
+          image: "./datascience-img/ds2.png",
+          tag:"enterprise",
+          title: "Data Insights Architect course",
+          description: "The Data Insights Architect program is designed to provide you with a comprehensive understanding of data analysis using Python and Tableau. This course covers everything from basic programming in Python to advanced data manipulation and visualization in Tableau, equipping you with the",
+          link: "/data-science/deep-learning",
+        },
+        {
+          image: "./datascience-img/ds3.png",
+          tag:"enterprise",
+          title: "Data Analytics with power BI and Tableau",
+          description: "The Data Analyst program is designed to equip you with critical data analytics skills using popular tools like Python, SQL Server, and Tableau. This comprehensive course covers everything from Python programming basics to advanced data visualization techniques, providing you with the",
+          link: "/data-science/data-analytics-powerbi",
+        },
+      ],
+    },
+    "advanced-programs": {
+      mainCourseTitle: "Advanced Programs",
+      subCourses: [
+        {
+          image: "./advanced-img/advance1.png",
+          tag:"DevOps Pioneer",
+          title: "DevOps Pioneer",
+          description: "The DevOps Pioneer program is expertly designed to introduce you to the world of DevOps, enhancing collaboration, streamlining software development, and deployment. You will learn about continuous integration and deployment, containerization, cloud environments, and more. This program is your",
+          link: "/advanced-programs/devOps-pioneer",
+        }
+      ]
+    },
+    "business-dataanalytics": {
+      mainCourseTitle: "Business & Data Analytics",
+      subCourses: [
+        {
+          image: "./business-img/business1.png",
+          tag:"Data Analytics Maven",
+          title: "Data Analytics with Python, Tableau, Excel, and Power BI",
+          description: "The Data Analytics Maven program is structured to provide you with an exhaustive understanding of data analysis using market-leading tools like Python, Tableau, Excel, SQL, and Power BI. Covering fundamental programming, advanced data manipulation, and sophisticated visualization, this",
+          link: "/business-dataanalytics/data-analytics-maven",
+        },
+        {
+          image: "./business-img/business2.png",
+          tag:"Data Analytics Masterclass",
+          title: "Essential Tools for Data Science: SQL, SAS & Power BI",
+          description: "The Data Analytics Masterclass is designed to equip you with the critical skills needed in the fields of SQL, SAS, and Power BI. This comprehensive course offers an in-depth exploration of each tool, ensuring you gain proficiency in Python programming, data science libraries, and sophisticated data",
+          link: "/business-dataanalytics/data-analytics-masterclass",
+        },
+      ]
+    },
+    "technology-programs": {
+      mainCourseTitle: "Technology Programs",
+      subCourses: [
+        {
+          image: "./technology-img/tech1.png",
+          tag:"Scrum Master",
+          title: "Scrum Master",
+          description: "The Scrum Master program is expertly designed to equip you with essential skills to lead and facilitate project teams in Agile environments. This course delves into the history, methodologies, and practical tools like JIRA, preparing you to handle real-world challenges and drive project success in any dynamic business setting.",
+          link: "/technology-programs/scrum-master",
+        },
+        {
+          image: "./technology-img/tech2.png",
+          tag:"Salesforce Specialist",
+          title: "Salesforce Specialist",
+          description: "The Salesforce Specialist program is expertly designed to guide you through the intricacies of Salesforce, from basic navigation to complex functionalities. Gain practical skills in Salesforce architecture, data management, automation tools, and more, enabling you to maximize CRM efficiency",
+          link: "/technology-programs/salesforce-specialist",
+        },
+        {
+          image: "./technology-img/tech3.png",
+          tag:"Python Full Stack",
+          title: "Python",
+          description: "The Python Full Stack program is designed to transition you from a novice to a professional Python developer. You'll begin with the fundamentals of Python programming and progress through more complex topics, such as web development with Python, database management,",
+          link: "/technology-programs/python-full-stack",
+        },
+        {
+          image: "./technology-img/tech4.png",
+          tag:"Manual Tester",
+          title: "Manual Tester",
+          description: "The Manual Tester program is intricately designed to develop your proficiency in validating software quality manually. Through this course, you will understand the core principles of manual testing, delve into different testing methodologies, and learn about the software development life cycle and",
+          link: "/technology-programs/manual-tester",
+        },
+        {
+          image: "./technology-img/tech5.png",
+          tag:"Java Fullstack Development",
+          title: "Java Fullstack",
+          description: "The Java Fullstack program is carefully designed to take you from Java fundamentals to advanced full-stack development. Learn to build robust backend systems and engaging front-end interfaces. Prepare to master frameworks like Spring and front-end technologies such as ReactJS, ensuring comprehensive skills in web developmen",
+          link: "/technology-programs/java-full-stack-development",
+        },
+        {
+          image: "./technology-img/tech6.png",
+          tag:"Informatica Cloud Services",
+          title: "Informatica Cloud Services",
+          description: "Informatica Cloud Services are designed to provide comprehensive data integration solutions that facilitate the connection, synchronization, and management of data across diverse platforms. You will explore key components like architecture, secure agent functionality, connectors, and task",
+          link: "/technology-programs/informatica-cloud-services",
+        },
+        {
+          image: "./technology-img/tech7.png",
+          tag:"SQL Server Course",
+          title: "SQL Server Mastery",
+          description: "The SQL Server Mastery program is meticulously designed to provide you with a deep understanding of SQL Server database management and optimization. Learn SQL Server setup, database design, query management, and more. Equip yourself with essential skills to efficiently handle and",
+          link: "/technology-programs/sql-server-mastery",
+        },
+        {
+          image: "./technology-img/tech8.png",
+          tag:"Rabbit MQ Course",
+          title: "RabbitMQ Mastery",
+          description: "The RabbitMQ Mastery program is expertly designed to teach you the intricacies of RabbitMQ, a critical component in modern software architecture. This course covers everything from AMQP fundamentals to advanced integration techniques with Docker and Kubernetes, equipping you with the",
+          link: "/technology-programs/rabbit-mq-course",
+        },
+        {
+          image: "./technology-img/tech9.png",
+          tag:"PHP Programming Course",
+          title: "PHP Programming",
+          description: "The PHP Programming course is expertly designed to teach you the fundamentals and advanced concepts of PHP. From setting up environments to mastering object-oriented programming, you will acquire the skills needed to develop robust web applications and services.",
+          link: "/technology-programs/php-programming-course",
+        },
+        {
+          image: "./technology-img/tech10.png",
+          tag:"Laravel course",
+          title: "Laravel Architect",
+          description: "The Laravel Architect program is designed to guide you through every aspect of Laravel, from basic setup to advanced application techniques. This course is structured to help you build sophisticated web applications using Laravel, enhancing your skills in modern web development.",
+          link: "/technology-programs/larvel-course",
+        },
+        {
+          image: "./technology-img/tech11.png",
+          tag:"Golang Masterclass",
+          title: "Golang Masterclass",
+          description: "The Golang Masterclass program is designed to thoroughly instruct you in the Go programming language. From foundational concepts to advanced programming techniques, this course ensures you become proficient in creating efficient, scalable, and powerful applications using Go.",
+          link: "/technology-programs/golang-masterclass",
+        },
+        {
+          image: "./technology-img/tech12.png",
+          tag:"Flutter Developer Course",
+          title: "Flutter Developer",
+          description: "The Flutter Developer program is designed to provide a thorough understanding of Flutter and Dart, enabling you to build high-quality applications for mobile, web, and desktop. From setting up your development environment to deploying your apps, this course covers everything you need to become a",
+          link: "/technology-programs/flutter-developer-course",
+        },
+        {
+          image: "./technology-img/tech13.png",
+          tag:"Django Course",
+          title: "Django Developer",
+          description: "The Django Developer program is expertly crafted to equip you with the skills necessary to build, deploy, and manage robust web applications using Django. Learn from the ground up: from basic concepts and environment setup to advanced features like REST API integration and deployment strategies.",
+          link: "/technology-programs/django-course",
+        },
+        {
+          image: "./technology-img/tech14.png",
+          tag:"Base SAS and Advance SAS course",
+          title: "SAS Mastery",
+          description: "The SAS Mastery program is designed to guide you through Base SAS and Advanced SAS programming, focusing on comprehensive data manipulation, analysis, and reporting. Gain in-depth knowledge on how to leverage SAS in varied scenarios from academic environments to advanced business",
+          link: "/technology-programs/sas-advancesas",
+        },
+      ]
+    },
+    "telecommunication": {
+      mainCourseTitle: "Telecommunication",
+      subCourses: [
+        {
+          image: "./telecommunication-img/tele1.png",
+          tag:"OSS and BSS",
+          title: "Telecom Operations Mastery",
+          description: "The OSS and BSS Skill Quest is intricately designed to provide in-depth knowledge and skills in operational support systems (OSS) and business support systems (BSS) which are vital for managing modern telecommunications services. Learn about everything from the basics of telecommunications to",
+          link: "/telecommunication/oss-bss",
+        },
+        {
+          image: "./telecommunication-img/tele2.png",
+          tag:"Basic Telecommunication course",
+          title: "Basic Telecommunication",
+          description: "The Basic Telecommunication program is expertly designed to introduce you to the world of telecommunication networks. From foundational concepts to advanced network architectures, this course covers the crucial aspects of service networks, PSTN, mobile network architecture, IP",
+          link: "/telecommunication/basic-telecommunication",
+        },
+        {
+          image: "./telecommunication-img/tele3.png",
+          tag:"4G&5G RAN",
+          title: "4G 5G RAN Specialist",
+          description: "The 4G 5G RAN Specialist program is expertly designed to provide in-depth knowledge of the architecture, technologies, and operational strategies in 4G and 5G radio access networks. From foundational telecommunications to advanced network functionalities, equip yourself to excel in",
+          link: "/telecommunication/4g-5g",
+        },
+      ],
+    },
+    "science-programs": {
+      mainCourseTitle: "Science Programs",
+      subCourses: [
+        {
+          image: "./science-img/sp1.png",
+          tag:"Medical Coding Master",
+          title: "Medical Coding Master",
+          description: "The Medical Coding Master program is meticulously crafted to provide you with robust skills for accurately coding medical diagnoses and treatments. You will learn to navigate various systems of the human body, understand the related medical terminology, and apply this knowledge in",
+          link: "/science-programs/medical-coding-master",
+        },
+        {
+          image: "./science-img/sp2.png",
+          tag:"Technical Content Writer Basic Level",
+          title: "Technical Content Writer Basic Level",
+          description: "The Technical Content Writer Basic Level program is expertly designed to develop your skills in creating precise and clear technical documentation. Engage in comprehensive training on technical writing fundamentals, effective communication, and the use of essential tools and technologies.",
+          link: "/science-programs/technical-content-writer-basic-level",
+        },
+        {
+          image: "./science-img/sp3.png",
+          tag:"Technical Content Writer Advance Level",
+          title: "Technical Content Writer Advance Level",
+          description: "The Technical Content Writer Advance Level program is designed to deepen your expertise in technical writing and documentation. This course covers everything from the fundamentals to advanced tools and strategies, preparing you to create detailed, clear, and user-focused",
+          link: "/science-programs/technical-content-writer-advance-level",
+        },
+        {
+          image: "./science-img/sp4.png",
+          tag:"Tableau Master",
+          title: "Tableau Course",
+          description: "The Tableau Master program is expertly designed to empower you with essential skills for effective data visualization and analysis using Tableau. You will delve into the fundamentals of Tableau, advanced data management, calculation techniques, filtering methods, and master the art of crafting insightful",
+          link: "/science-programs/tableau-master",
+        },
+        {
+          image: "./science-img/sp5.png",
+          tag:"Reception Course",
+          title: "Reception Course",
+          description: "The Reception Course is carefully designed to prepare you for a dynamic role at the forefront of an organization. This program covers everything from effective communication to advanced office management, ensuring you are equipped to handle the diverse demands of a receptionist's role.",
+          link: "/science-programs/reception-course",
+        },
+        {
+          image: "./science-img/sp6.png",
+          tag:"Power BI Mastery",
+          title: "Power BI Course",
+          description: "The Power BI Mastery program is expertly designed to transform you into a data wizard, adept at leveraging Power BI to enhance business intelligence. Explore comprehensive modules covering everything from data warehousing basics to advanced DAX and data visualization techniques.",
+          link: "/science-programs/powerbi-mastery",
+        },
+        {
+          image: "./science-img/sp7.png",
+          tag:"Office Administrator",
+          title: "Office Administration Course",
+          description: "The Office Administrator program is carefully designed to enhance your administrative capabilities in modern office settings. You will learn about the evolution of office administration, the role of administrators, advanced office software skills, and much more. Prepare yourself to manage office",
+          link: "/science-programs/office-administrator",
+        },
+        {
+          image: "./science-img/sp8.png",
+          tag:"Modern Recruitment Master",
+          title: "Modern Recruitment Practices",
+          description: "The Modern Recruitment Master program is intricately designed to equip you with the most effective and innovative recruitment techniques. Learn to navigate the complexities of organizational structures, master HR management, and implement cutting-edge recruitment technologies. Prepare",
+          link: "/science-programs/modern-recruitment-master",
+        },
+        {
+          image: "./science-img/sp9.png",
+          tag:"Business Analyst",
+          title: "Business Analyst course",
+          description: "The Business Analyst program is intricately designed to provide you with comprehensive skills in business analysis. Learn to understand business needs, stakeholder analysis, strategic frameworks, and effective use of tools like Jira for process improvements. Prepare to impact business",
+          link: "/science-programs/business-analyst",
+        },
+        {
+          image: "./science-img/sp10.png",
+          tag:"Entrepreneurial Mastery",
+          title: "Enterpreneurship",
+          description: "The Entrepreneurial Mastery program is expertly designed to guide you from the fundamentals of entrepreneurship through to launching your own business. Learn to create robust business models, manage risks, secure financing, and master strategic planning. Equip yourself with the necessary tools to",
+          link: "/science-programs/entrepreneurial-mastery",
+        },
+        {
+          image: "./science-img/sp11.png",
+          tag:"Excel Virtuoso",
+          title: "Excel VBA course",
+          description: "The Excel Virtuoso program is designed to provide an in-depth understanding of Excel and VBA, emphasizing practical applications in modern data landscapes. Learn everything from foundational skills to advanced data analysis and automation with VBA, equipping you to handle complex data tasks",
+          link: "/science-programs/excel-virtuoso",
+        },
+        {
+          image: "./science-img/sp12.png",
+          tag:"Manual Tester",
+          title: "Manual Testing course",
+          description: "The Manual Tester program is expertly designed to provide you with a comprehensive understanding of manual software testing. You will explore the Software Development Life Cycle (SDLC), various testing methodologies, static techniques, and more. Prepare to excel in ensuring software quality and",
+          link: "/science-programs/manual-tester",
+        },
+        {
+          image: "./science-img/sp13.png",
+          tag:"Technology Training Program",
+          title: "Technology Training Program",
+          description: "The Technology Training Program is an exhaustive course designed to equip you with a profound understanding and practical skills across a broad spectrum of computing and IT disciplines. From foundational computing concepts to advanced infrastructure management, this program offers a",
+          link: "/science-programs/technology-training-program",
+        },
+        {
+          image: "./science-img/sp14.png",
+          tag:"AML KYC Specialist",
+          title: "AML KYC Course",
+          description: "The AML KYC Specialist program is meticulously crafted to equip you with essential skills for mastering Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance. Learn the fundamentals, the regulatory framework, customer due diligence, and the use of technology in",
+          link: "/science-programs/aml-kyc",
+        },
+        
+      ]
+    },
+  };
+  
